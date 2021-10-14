@@ -25,7 +25,6 @@ public class SortingThread extends Thread{
         this.searchingThread = searchingThread;
     }
 
-
     @Override
     public void run() {
         while (true){
