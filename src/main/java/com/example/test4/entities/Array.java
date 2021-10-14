@@ -29,7 +29,7 @@ public class Array {
     public int get(int index){
         return array[index];
     }
-    public void print(){ //in mang so nguyen moi dong 10 so
+    public void print(){
         System.out.print(array[0] + " ");
         for (int i = 1; i < length;i++){
             if(i%10==0){
